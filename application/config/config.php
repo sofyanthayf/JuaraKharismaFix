@@ -23,7 +23,8 @@ date_default_timezone_set('Asia/Makassar');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'https://vps.wasdlabs.com/kharisma/';
+//$config['base_url'] = 'https://vps.wasdlabs.com/kharisma/';
+$config['base_url'] = getenv('BASE_URL');
 
 /*
 |--------------------------------------------------------------------------
